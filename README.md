@@ -24,29 +24,36 @@ The main downside would be that if the capture is directly focusing that window 
 * (*moderate*) - It's important but *not a deal breaker*
 * (*low*) - It's not that important but it's *good to know*
 
-> ***Cons***
-```diff
-- (moderate) The overlay will not work if the capture is directly focusing the target window.
-
-- (low) If you Alt + Tab or Win + Tab the application will be visible in the preview. (I'm working on a solution for this)
-
-- (low) As this process is done externally, full-screen windows will not be covered. (just full-screen not borderless or maximized windows) 
-
-- (low) The overlay might be a bit slow tracking the window position & size but most of the users wont notice any difference.
-
-- (moderate) The window will appear with a black background in the capture, so it's not perfect for all situations.
-```
 > ***Pros***
 ```diff
-+ (high) The overlay does not interact with the target application. So it's safe to use and will not risk any bans while playing games or using other applications that might have anti-cheat systems.
++ (high) 
+  The overlay does not interact with the target application. So it's safe to use and will not risk any bans while playing games or using other applications that might have anti-cheat systems.
++ (high) 
+  This application will work on any application, even if it has elevated permissions or any flag that would prevent the anti capture method to work.
 
-+ (high) This application will work on any application, even if it has elevated permissions or any flag that would prevent the anti capture method to work.
++ (moderate) 
+  You can set the application to run automatically on startup, in the background and have little interaction with the user so that it's always protecting your privacy.
 
-+ (moderate) You can set the application to run automatically on startup, in the background and have little interaction with the user so that it's always protecting your privacy.
++ (low) 
+  You can filter by window title match so you can hide certain applications or windows inside applications and also by process name.
++ (low)
+  The application is very light and does not consume many resources.
++ (low)
+   The application doesnt require any installation, just download and run.
+```
 
-+ (low) You can filter by window title match so you can hide certain applications or windows inside applications and also by process name.
+> ***Cons***
+```diff
+- (moderate) 
+  The overlay will not work if the capture is directly focusing the target window.
 
-+ (low) The application is very light and does not consume many resources.
+- (low) 
+  If you Alt + Tab or Win + Tab the application will be visible in the preview. (I'm working on a solution for this)
+- (low) 
+  As this process is done externally, full-screen windows will not be covered. (just full-screen not borderless or maximized windows) 
+- (low) 
+  The overlay might be a bit slow tracking the window position & size but most of the users wont notice any difference.
 
-+ (low) The application doesnt require any installation, just download and run.
+- (moderate) 
+  The window will appear with a black background in the capture, so it's not perfect for all situations.
 ```
